@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="cont.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="ajout.php" method="post">
+        <fieldset>
+            <legend>ajout d'une pilote</legend>
+            matricule: <input type="text" name="mat" id="mat"><br>
+            nom: <input type="text" name="nom" id="nom"><br>
+            prenom: <input type="text" name="prenom" id="prenom"><br>
+            <input type="radio" name="g" id="H">homme<input type="radio" name="g" id="f">femme <br>
+            Email: <input type="text" name="email" id="email"> <br>
+            <input type="reset" value="Annuler">
+            <input type="submit" value="ajouter" onclick="verif1()">
+        </fieldset>
+    </form>
+</body>
+</html>
